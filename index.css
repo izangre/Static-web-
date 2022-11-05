@@ -1,0 +1,57 @@
+body {
+    background-color: #040f13;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+    background-color: #6c25be;
+    border-radius: 5px;
+    display: block;
+    
+}
+
+ul li {
+    float: left;    
+}
+
+ul li a {
+    display: block;
+    text-decoration: none; 
+    padding: 14px 10px;
+    margin: 2px;
+    color: white;
+    border-radius: 6px;
+}
+ul li a:hover {
+    background-color: #040f13;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+.dropdown-content a {
+     text-decoration: none;
+     text-align: left;
+     background-color: #6c25be;
+     padding: 5px;
+     color: white;
+     
+
+}
+li:last-child {
+    float: right;
+}
+li:last-child a {
+    margin-right: 20px;
+}
+
+.dropdown-li:hover .dropdown-content {
+    display: block;
+}
