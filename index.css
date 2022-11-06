@@ -14,7 +14,7 @@ ul {
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    background-color: #6c25be;
+    background-color: #3e0b57;
    
     display: block;
     
@@ -32,8 +32,11 @@ ul li a {
     color: white;
     border-radius: 6px;
 }
+ul li:first-child {
+    margin-left: 60px;
+}
 ul li a:hover {
-    background-color: #040f13;
+    background-color: #230b57;
     
 }
 
@@ -44,7 +47,7 @@ ul li a:hover {
 .dropdown-content a {
      text-decoration: none;
      text-align: left;
-     background-color: #6c25be;
+     background-color: #3e0b57;
      padding: 5px;
      color: white;
      
@@ -54,7 +57,7 @@ li:last-child {
     float: right;
 }
 li:last-child a {
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .dropdown-li:hover .dropdown-content {
@@ -88,12 +91,15 @@ li:last-child a {
     float: left;
     box-sizing: border-box;
     height: 70%;
-    width: 33%;
+    width: 30%;
     vertical-align: top;
     padding: 30px;
-    margin: 0 auto;
-    border-radius: 10px;
+    margin:auto;
+    color: aliceblue;
     text-align: center;
-    background-color: #391840 ;
+    
 
+}
+.f-column:first-child {
+    margin-left: 60px;
 }
