@@ -35,6 +35,7 @@ ul li a {
 ul li:first-child {
     margin-left: 60px;
 }
+
 ul li a:hover {
     background-color: #230b57;
     
@@ -56,6 +57,12 @@ ul li a:hover {
 li:last-child {
     float: right;
 }
+
+.aft::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 li:last-child a {
     margin-right: 40px;
 }
@@ -66,6 +73,32 @@ li:last-child a {
 
 .container {
     height: 1000px;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.main-col {
+    float: left;
+    width: 72%;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    height: 96%;
+}
+.side-col {
+    
+    float: left;
+    width: 22%;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    height: 96%;
 }
 
 /* footer {
